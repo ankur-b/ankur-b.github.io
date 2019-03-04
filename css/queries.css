@@ -1,0 +1,49 @@
+
+@media only screen and (max-width: 1200px) {
+    .text-box {
+        width: 100%;
+        padding: 0 2%;
+    }
+    
+    .row { padding: 0 2%; }
+}
+
+@media only screen and (max-width: 1024px) {
+    body { font-size: 18px; }
+}
+
+
+@media only screen and (max-width: 768px) {
+    body { font-size: 16px; }
+    .row,
+    .text-box { padding: 0 4%; }
+    .col { 
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav { display: none; }
+    .mobile-nav-icon {display: inline-block;}
+    .main-nav {
+        float: left;
+        margin-top: 30px;
+        margin-left: 25px;
+    }
+    .main-nav li {
+        display: block;
+    }
+    .main-nav li a:link,
+    .main-nav li a:visited {
+        display: block;
+        border: 0;
+        padding: 10px 0;
+        font-size: 100%;
+    } 
+   
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+}
+
+
+
+
+
