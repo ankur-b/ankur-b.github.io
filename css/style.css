@@ -15,6 +15,33 @@ body {
     text-rendering: optimizeLegibility;
     overflow-x: hidden;
 }
+.button {
+   font: 16px/30px 'opensans-bold', sans-serif;
+   display: inline-block;
+   background: #3d4145;
+	text-decoration: none;
+   letter-spacing: 0;
+   color: #fff;
+	padding: 12px 20px;
+	margin-bottom: 18px;
+   border: none;
+   cursor: pointer;
+   height: auto;
+    transition: all .2s ease-in-out;
+   border-radius: 3px;
+}
+
+.button:hover {
+   background: #3d4145;
+   color: #fff;
+}
+
+.button:active{
+   background: #3d4145;
+   color: #fff;
+}
+
+
 
 .logo{
     height: 100px;
@@ -27,7 +54,7 @@ body {
 }
 
 .row {
-    max-width: 1140px;
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -35,7 +62,6 @@ h1,
 h2,
 h3 {
     font-weight: 300;
-    text-transform: uppercase;
 }
 
 h1 {
@@ -43,14 +69,13 @@ h1 {
     margin-bottom: 20px;
     color: #fff;
     font-size: 240%;
-    word-spacing: 4px;
+    word-spacing: 2px;
     letter-spacing: 1px;
 }
 
 h2 {
     font-size: 180%;
     word-spacing: 2px;
-    text-align: center;
     margin-bottom: 30px;
     letter-spacing: 1px;
 }
@@ -59,18 +84,6 @@ h3 {
     font-size: 110%;
     margin-bottom: 15px;
 }
-
-h2:after {
-    display: block;
-    height: 2px;
-    background-color: #e67e22;
-    content: " ";
-    width: 100px;
-    margin: 0 auto;
-    margin-top: 30px;
-}
-
-
 
 .btn:link,
 .btn:visited,
@@ -190,6 +203,45 @@ header {
     font-size: 200%;
     color: #fff;
 }
+#about {
+    background: #2B2B2B;
+    padding-top: 96px;
+    padding-bottom: 66px;
+    overflow: hidden;
+ } 
+ #about h2 {
+    font: 20px;
+    color: #fff;
+    margin-bottom: 10px;
+ }
+ #about h3{
+    font: 10px;
+    color: #fff;
+    margin-bottom: 10px;
+ }
+ #about p {
+    line-height: 30px;
+    text-align: justify;
+    color: #8A8A8A;
+ }
+ #about .profile-pic {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    border-radius: 100%;
+ }
+ #about .download .button {
+    margin-top: 60px;
+    background: #444;
+ }
+ #about .download .button:hover {
+    background: #fff;
+    color: #2B2B2B;
+ }
+ #about .download .button i {
+    margin-right: 15px;
+    font-size: 20px;
+ }
 footer {
     background-color: #333;
     padding: 50px;

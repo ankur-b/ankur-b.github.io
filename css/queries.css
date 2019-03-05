@@ -41,6 +41,19 @@
    
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
+    #about .download .button {
+        width: 50%;
+        text-align: center;
+        padding: 15px 20px;
+     }
+     #about { padding-right: 30px; }
+     .contact-details{
+         margin-top: 20px;
+     }
+     #about .download .button {
+        margin-top: 15px;
+        background: #444;
+     }
 }
 
 
