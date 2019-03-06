@@ -42,11 +42,29 @@
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     #about .download .button {
-        width: 50%;
+        width: 100%;
         text-align: center;
-        padding: 15px 20px;
+        padding: 15px 10px;
      }
-     #about { padding-right: 30px; }
+     .button:hover {
+        width: 100%;
+       background: #3d4145;
+       text-align: center;
+       color: #fff;
+    }
+    
+    .button:active{
+        width: 100%;
+       background: #3d4145;
+       text-align: center;
+       color: #fff;
+    }
+    .button:visited{
+        width: 100%;
+        background: #3d4145;
+        text-align: center;
+        color: #fff;
+    }
      .contact-details{
          margin-top: 20px;
      }

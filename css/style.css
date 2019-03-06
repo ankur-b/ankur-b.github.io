@@ -19,6 +19,7 @@ body {
    font: 16px/30px 'opensans-bold', sans-serif;
    display: inline-block;
    background: #3d4145;
+   width: 25%;
 	text-decoration: none;
    letter-spacing: 0;
    color: #fff;
@@ -32,13 +33,20 @@ body {
 }
 
 .button:hover {
+    width: 25%;
    background: #3d4145;
    color: #fff;
 }
 
 .button:active{
+    width: 25%;
    background: #3d4145;
    color: #fff;
+}
+.button:visited{
+    width: 25%;
+    background: #3d4145;
+    color: #fff;
 }
 
 
