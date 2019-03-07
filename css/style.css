@@ -54,7 +54,9 @@ body {
 .logo{
     height: 100px;
     float: left;
-    margin-top: 20px;
+    margin-top: 20px;-o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
@@ -141,11 +143,14 @@ input[type=submit]:active {
 }
 
 header {
-    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back.jpeg);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back.jpeg);
+    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size:cover;
 }
 
 #skill{
