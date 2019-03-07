@@ -54,13 +54,23 @@ body {
 .logo{
     height: 100px;
     float: left;
-    margin-top: 20px;-o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size:cover;
+    margin-top: 20px;
+    font-weight: 600;
     text-decoration: none;
     color: #fff;
     text-transform: uppercase;
-    font-size:20px; 
+    font-size:24px;
+}
+.logo-black{
+    height: 100px;
+    float: left;
+    margin-top: 20px;
+    text-decoration: none;
+    font-weight: 800;
+    color: #555;
+    text-transform: uppercase;
+    font-size:24px;
+    display: none;
 }
 
 .row {
@@ -94,8 +104,8 @@ h3 {
     font-size: 110%;
     margin-bottom: 15px;
 }
-p { 
-    margin: 0 0 30px 0; 
+p {
+    margin: 0 0 30px 0;
     text-align: justify;
 }
 .btn:link,
@@ -144,15 +154,11 @@ input[type=submit]:active {
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/back.jpeg);
-    background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -webkit-background-size:cover;
+    background-attachment: fixed;
 }
-
 #skill{
     font-weight:200;
     color: #fff;
@@ -175,13 +181,7 @@ header {
     margin-top: 20px;
 }
 
-.logo-black { 
-    display: none;
-    height: 50px;
-    width: auto;
-    float: left;
-    margin: 5px 0;
-}
+
 .main-nav {
     float: right;
     list-style: none;
@@ -220,12 +220,33 @@ header {
     font-size: 200%;
     color: #fff;
 }
+.sticky{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding-bottom: 5px;
+    background-color: transparent;
+    z-index: 9999;
+}
+.sticky .main-nav{
+    margin-top: 18px;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 5px 10px;
+    color: #555;
+    font-size: 20px;
+    font-weight: 600;
+}
+.sticky .logo { display: none; }
+.sticky .logo-black { display: block; }
 #about {
     background: #2B2B2B;
     padding-top: 96px;
     padding-bottom: 66px;
     overflow: hidden;
- } 
+ }
  #about h2 {
     font: 20px;
     color: #fff;
@@ -260,7 +281,7 @@ header {
     font-size: 20px;
  }
  #skills{
-     padding-top: 50px;
+     padding-top: 80px;
  }
  .skill h1 {
     font: 18px/24px 'opensans-bold', sans-serif;
@@ -314,33 +335,27 @@ header {
 
 .python {
   	width: 70%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
+
 }
 .swift {
    width: 30%;
-   -moz-animation: illustrator 2s ease;
-   -webkit-animation: illustrator 2s ease;
+
 }
 .react {
    width: 50%;
-   -moz-animation: wordpress 2s ease;
-   -webkit-animation: wordpress 2s ease;
+
 }
 .cpp {
    width: 75%;
-   -moz-animation: css 2s ease;
-   -webkit-animation: css 2s ease;
+
 }
 .htmlcss {
    width: 70%;
-   -moz-animation: html5 2s ease;
-   -webkit-animation: html5 2s ease;
+
 }
 .javascript{
    width: 65%;
-   -moz-animation: jquery 2s ease;
-   -webkit-animation: jquery 2s ease;
+
 }
 footer {
     background-color: #333;
@@ -353,4 +368,3 @@ footer p {
     text-align: center;
     margin-top: 20px;
 }
-

@@ -4,7 +4,7 @@
         width: 100%;
         padding: 0 2%;
     }
-    
+
     .row { padding: 0 2%; }
 }
 
@@ -17,7 +17,7 @@
     body { font-size: 16px; }
     .row,
     .text-box { padding: 0 4%; }
-    .col { 
+    .col {
         width: 100%;
         margin: 0 0 4% 0;
     }
@@ -37,8 +37,24 @@
         border: 0;
         padding: 10px 0;
         font-size: 100%;
-    } 
-   
+    }
+    .sticky .main-nav{
+    margin-top: 15px;
+}
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited{
+    padding: 5px 10px;
+    color: #555;
+    font-size: 18px;
+}
+.sticky .mobile-nav-icon{
+    margin-top: 15px;
+}
+.sticky .mobile-nav-icon i{
+    color: #555;
+
+}
+
     h1 { font-size: 180%; }
     h2 { font-size: 150%; }
     #about .download .button {
@@ -52,7 +68,7 @@
        text-align: center;
        color: #fff;
     }
-    
+
     .button:active{
         width: 100%;
        background: #3d4145;
@@ -74,8 +90,3 @@
      }
      .bars { width: 100%; }
 }
-
-
-
-
-

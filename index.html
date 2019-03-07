@@ -2,6 +2,7 @@
 <html>
 <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/grid.css">
         <link rel="stylesheet" type="text/css" href="css/animate.css">
@@ -16,7 +17,8 @@
         <nav>
             <div class="row">
                 <a class="logo" href="#">Ankur</a>
-                <ul class="main-nav jsmainnav"> 
+                <a class="logo-black" href="#">Ankur</a>
+                <ul class="main-nav jsmainnav">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
@@ -58,10 +60,10 @@
                            <a href="Ankur Barve.pdf" class="button"><i class="fa fa-download"></i>Download Resume</a>
                         </p>
                      </div>
-                  </div> 
+                  </div>
                </div>
             </div>
-         </section> 
+         </section>
          <section id="skills">
             <div class="row skill">
                 <div class="col span-3-of-12">
@@ -79,11 +81,11 @@
                             <li><span class="bar-expand cpp"></span><em>C++</em></li>
                             <li><span class="bar-expand swift"></span><em>Swift</em></li>
                             <li><span class="bar-expand python"></span><em>Python</em></li>
-                            </ul>            
+                            </ul>
                     </div>
                 </div>
             </div>
-         </section>   
+         </section>
     <footer>
             <div class="row">
                 <p>
@@ -93,23 +95,5 @@
     </footer>
     <script type="text/javascript" src="js/script.js"></script>
     <script type="text/javascript" src="js/jquery.waypoints.min.js"></script>
-    <script>
-        $(document).ready(function(){
-            var myskills = ['Web Developer','iOS Developer','Graphic Designer'];
-            var skill_id = document.getElementById('skill');
-            var counter = 0;
-            setInterval(change, 2500);
-          function change() {
-              $('#skill').fadeOut(1000, function(){
-                skill_id.textContent = myskills[counter];
-              }).fadeIn(1000);
-              counter++;
-              if (counter>=myskills.length) {
-                counter = 0;
-              }
-            }
-        });
-    </script>
-   
 </body>
-</html> 
+</html>
