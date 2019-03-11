@@ -246,14 +246,21 @@ header {
 .sticky .logo-black { display: block; }
 #about {
     background: #2B2B2B;
-    padding-top: 96px;
+    padding-top: 50px;
     padding-bottom: 66px;
     overflow: hidden;
  }
- #about h2 {
-    font: 20px;
+ #about h1 {
+    font-size: 18px;
     color: #fff;
-    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+ }
+ #about h1 span{
+
+     border-bottom: 3px solid #fff;
+     padding: 10px;
  }
  #about h3{
     font: 10px;
@@ -286,25 +293,29 @@ header {
  #skills{
      padding-top: 80px;
  }
- .skill h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+ #skills h1 {
+    font-size: 18px;
     text-transform: uppercase;
     color: #2B2B2B;
+    text-align: center;
     letter-spacing: 1px;
  }
- .skill h1 span {
+ #skills h1 span {
     border-bottom: 3px solid #2B2B2B ;
-    padding-bottom: 6px;
+    padding-bottom: 10px;
  }
  .bars {
-	width: 95%;
-	float: left;
+	width: 70%;
+    margin: auto;
+    margin-top: 60px;
 	padding: 0;
 	text-align: left;
 }
 .bars .skills {
   	margin-top: 36px;
-   list-style: none;
+    margin-left: auto;
+    margin-right: auto;
+    list-style: none;
 }
 .bars li {
    position: relative;
@@ -359,6 +370,43 @@ header {
 .javascript{
    width: 65%;
 
+}
+#projects{
+    padding-top: 80px;
+}
+#projects h1 {
+   font-size: 18px ;
+   text-transform: uppercase;
+   color: #2B2B2B;
+   text-align: center;
+   letter-spacing: 1px;
+}
+#projects h1 span {
+   border-bottom: 3px solid #2B2B2B ;
+   padding-bottom: 6px;
+}
+.projects h2 {
+   font-size: 14px ;
+   text-transform: uppercase;
+   color: #2B2B2B;
+   letter-spacing: 1px;
+}
+#projects .row a{
+    text-decoration: none;
+}
+#contact{
+    padding-top: 80px;
+}
+#contact h1 {
+   font-size: 18px ;
+   text-transform: uppercase;
+   color: #2B2B2B;
+   text-align: center;
+   letter-spacing: 1px;
+}
+#contact h1 span {
+   border-bottom: 3px solid #2B2B2B ;
+   padding-bottom: 6px;
 }
 footer {
     background-color: #333;
