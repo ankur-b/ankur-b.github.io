@@ -1,0 +1,24 @@
+div{
+    margin: 10px auto;
+}
+h1{
+    font-weight: 700;
+}
+.cover{
+    width: 100%;
+    height: 550px;
+}
+.detail{
+  
+    height: 250px;
+    margin: auto;
+    text-align: justify;
+}
+.propic{
+   width: 100%;
+    height: 250px;
+}
+.card-img-top{
+    width: 200px;
+    height: 200px;
+}
