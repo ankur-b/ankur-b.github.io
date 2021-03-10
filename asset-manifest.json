@@ -1,38 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a9f7647f.chunk.css",
-    "main.js": "/static/js/main.bbbfeb56.chunk.js",
-    "main.js.map": "/static/js/main.bbbfeb56.chunk.js.map",
+    "main.css": "/static/css/main.fcaef4af.chunk.css",
+    "main.js": "/static/js/main.2975737f.chunk.js",
+    "main.js.map": "/static/js/main.2975737f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.47788c5d.js",
     "runtime-main.js.map": "/static/js/runtime-main.47788c5d.js.map",
-    "static/js/2.c4710c78.chunk.js": "/static/js/2.c4710c78.chunk.js",
-    "static/js/2.c4710c78.chunk.js.map": "/static/js/2.c4710c78.chunk.js.map",
+    "static/js/2.55153b0a.chunk.js": "/static/js/2.55153b0a.chunk.js",
+    "static/js/2.55153b0a.chunk.js.map": "/static/js/2.55153b0a.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.af144de7c6a4df70266ba7ae557f98b9.js": "/precache-manifest.af144de7c6a4df70266ba7ae557f98b9.js",
+    "precache-manifest.79352d03a1aad7f730c3c4eaaa918324.js": "/precache-manifest.79352d03a1aad7f730c3c4eaaa918324.js",
     "service-worker.js": "/service-worker.js",
-    "static/css/main.a9f7647f.chunk.css.map": "/static/css/main.a9f7647f.chunk.css.map",
-    "static/js/2.c4710c78.chunk.js.LICENSE.txt": "/static/js/2.c4710c78.chunk.js.LICENSE.txt",
+    "static/css/main.fcaef4af.chunk.css.map": "/static/css/main.fcaef4af.chunk.css.map",
+    "static/js/2.55153b0a.chunk.js.LICENSE.txt": "/static/js/2.55153b0a.chunk.js.LICENSE.txt",
     "static/media/avatar.jpg": "/static/media/avatar.c60f54a2.jpg",
-    "static/media/bg7.jpg": "/static/media/bg7.b08234a2.jpg",
-    "static/media/christian.jpg": "/static/media/christian.56633ed3.jpg",
-    "static/media/clem-onojegaw.jpg": "/static/media/clem-onojegaw.c058841b.jpg",
-    "static/media/clem-onojeghuo.jpg": "/static/media/clem-onojeghuo.216ef03c.jpg",
-    "static/media/cynthia-del-rio.jpg": "/static/media/cynthia-del-rio.9813593c.jpg",
-    "static/media/kendall.jpg": "/static/media/kendall.e0508cc9.jpg",
-    "static/media/landing-bg.jpg": "/static/media/landing-bg.df8fd3ef.jpg",
-    "static/media/mariya-georgieva.jpg": "/static/media/mariya-georgieva.4575c40b.jpg",
-    "static/media/olu-eletu.jpg": "/static/media/olu-eletu.4112cbc1.jpg",
-    "static/media/profile-bg.jpg": "/static/media/profile-bg.baf6b40a.jpg",
-    "static/media/studio-1.jpg": "/static/media/studio-1.ae0150c0.jpg",
-    "static/media/studio-2.jpg": "/static/media/studio-2.76e2987e.jpg",
-    "static/media/studio-3.jpg": "/static/media/studio-3.1d5451ce.jpg",
-    "static/media/studio-4.jpg": "/static/media/studio-4.e064d090.jpg",
-    "static/media/studio-5.jpg": "/static/media/studio-5.ef5c30ea.jpg"
+    "static/media/mariya-georgieva.jpg": "/static/media/mariya-georgieva.4575c40b.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.47788c5d.js",
-    "static/js/2.c4710c78.chunk.js",
-    "static/css/main.a9f7647f.chunk.css",
-    "static/js/main.bbbfeb56.chunk.js"
+    "static/js/2.55153b0a.chunk.js",
+    "static/css/main.fcaef4af.chunk.css",
+    "static/js/main.2975737f.chunk.js"
   ]
 }
